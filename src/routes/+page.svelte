@@ -11,7 +11,7 @@
     <h1>{title}</h1>
     
     <form action="" class="new">
-        <input type="text" name="todo" aria-label="Add a todo" placeholder="+ type to add todo" >
+        <input type="text" name="new-todo" aria-label="Add a todo" placeholder="+ type to add todo" >
     </form>
     
     <TodoItem />
