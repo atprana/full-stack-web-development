@@ -3,7 +3,7 @@
   import TodoItem from "$lib/components/todo-item.svelte";
   export let data;
   const { todos } = data.todos;
-  // console.log(`your data are:${todos}`);
+
 </script>
 
 <svelte:head>
@@ -58,3 +58,4 @@
     text-align: center;
   }
 </style>
+
