@@ -1,10 +1,12 @@
-import * as todos from '$lib/database/todos';
+// import * as todos from '$lib/database/todos';
+import * as todos from '$lib/database/db.js';
 
 export async function load() {
   const data = await todos.getTodos()
 
+  console.log(data)
   return {
-    todos: data.todos
+    todos: data
   }
 }
 
